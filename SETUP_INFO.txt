@@ -1,0 +1,11 @@
+step 1 : after unziping the file dubble click and run the run_gui.bat  file 
+// it will automaticall crete an virtual environment and install the packages , after press any key to start the app
+
+step 2: optional , for better camera quality use your mobile phone as a web camera
+
+        ===> step 1: download droidcam client on both device , pair them. link = https://www.dev47apps.com/
+        ===> the video capture is start only when the detection prgram starts 
+        ===> if the camera is not displayed in the app 
+            ====> then change the value in "self.cap = cv2.VideoCapture(0)" in the driver_monitoring_tkinter.py file
+                    if cv2.VideoCapture(0) value is 0 change to 1 , else vice versa.
+
